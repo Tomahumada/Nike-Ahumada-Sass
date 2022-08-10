@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap");
+.colorH {
+  background-color: #a2cef1; }
+
+.botonC {
+  background-color: #222; }
+
+.colorF {
+  background-color: azure; }
+
 * {
   font-family: sans-serif; }
-
-body {
-  background-color: azure; }
 
 /*HEADER*/
 .tamLogo {
   width: 110px;
   margin: 0 0 0 10px; }
-  
+
 .ancla {
   color: #666;
   font-size: 1rem;
@@ -33,7 +39,7 @@ li .ancla:hover {
   width: 69%;
   margin: auto;
   background-color: #fff;
-  opacity: 80%; }
+  opacity: 78%; }
 
 .fondoPri {
   background-image: url(/img/fondo.jpg);
@@ -41,29 +47,49 @@ li .ancla:hover {
   background-size: cover;
   background-attachment: fixed;
   border-radius: 20px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px; }
 
-.colorFondo {
-  background-color: #a3cef1;
-  border-radius: 0 0 30px 30px;
+.fondoH {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 0 0 5px 5px;
   position: sticky;
   top: 0;
   z-index: 2; }
 
+.card {
+  box-shadow: 2px 2px 10px black;
+  background-color: #ffba69;
+  font-weight: bold;
+  border-radius: 20px; }
+
 .botones {
-  background-color: black;
-  color: #fff; }
+  align-items: center;
+  color: #fff;
+  transition: all .3s; }
+
+.botones:hover {
+  background-color: #a2cef1;
+  color: black; }
 
 .subtitulo {
   text-align: center;
-  font-size: 3rem;
-  margin: 110px 0 30px 0;
-  font-family: 'Roboto', sans-serif; }
+  font-size: 50px;
+  margin: 115px 0 30px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
 
 .subtitulo1 {
   text-align: center;
   font-size: 3.2rem;
-  margin: 50px 0 15px 0; }
+  margin: 50px 0 15px 0;
+  font-weight: bold; }
+
+.piedePag {
+  background-color: #fff;
+  opacity: 85%;
+  padding: 30px 0;
+  margin: 60px 0; }
 
 .main {
   margin: 0px 0 100px 0; }
@@ -71,13 +97,14 @@ li .ancla:hover {
 .titulo {
   text-align: center;
   margin: 40px 0 10px 0;
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Roboto', sans-serif; }
 
-.Descripcion {
+.descripcion {
   text-align: center;
   font-size: 25px;
-  padding: 0 30px 0px 30px; }
+  padding: 0 30px 0 30px;
+  font-weight: bold; }
 
 .promos {
   margin: 30px 0 10px 0;
@@ -85,16 +112,21 @@ li .ancla:hover {
 
 /*PARTE DE LAS PROMOCIONES*/
 .promociones {
+  background-color: #fff;
   border: 3px solid black;
   border-radius: 10px;
-  padding: 40px 10px;
-  margin: 90px 0px 100px 0; }
+  padding: 30px 10px;
+  margin: 90px 0px 90px 0;
+  opacity: 90%; }
 
 .promText {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center; }
+
+.textprom {
+  padding: 0 40px; }
 
 /*PARTE DEL FOOTER*/
 .redes {
@@ -115,19 +147,19 @@ li .ancla:hover {
   padding: 20px 0; }
 
 .btnContact {
-  margin: 10px 5px 10px 5px;
+  margin: 10px 10px;
   font-size: 15px;
   color: #fff;
-  padding: 7px 25px;
-  border: #000 solid 2px;
-  border-radius: 5px;
-  background-color: #000;
-  transition: .4s; }
+  padding: 7px 20px;
+  border: #fff solid 3px;
+  border-radius: 10px 0;
+  transition: .2s; }
 
 .btnContact:hover {
-  background-color: #fff;
+  background-color: #a2cef1;
+  border: 3px solid #000;
   color: #222222;
-  border-radius: 15px; }
+  border-radius: 10px; }
 
 .input-contact {
   width: 30%;
@@ -137,9 +169,9 @@ li .ancla:hover {
 .imagen-pres {
   text-align: center;
   width: 100%;
+  height: 100%;
   margin: auto;
-  padding-top: 20px;
-  height: 300px; }
+  padding-top: 1px; }
 
 .ubiTrabajo {
   width: 100%;
@@ -147,7 +179,7 @@ li .ancla:hover {
   margin: auto;
   align-items: center;
   text-align: center;
-  margin: 80px 0 100px 0; }
+  margin: 20px 0 100px 0; }
 
 .trabajamos {
   font-size: 40px; }
@@ -171,17 +203,35 @@ li .ancla:hover {
 @media (max-width: 768px) {
   .fondo {
     width: 100%; }
+  .fondoPri {
+    background-image: url(/img/logoNike.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+  h1 {
+    width: 100%;
+    margin: auto; }
+  .botones {
+    width: 85%;
+    margin: auto; }
   .input-contact {
-    width: 80%;
+    width: 70%;
     margin: auto; }
   .titulo {
     font-size: 40px; }
-  .Descripcion {
-    font-size: 16px;
+  .subtitulo1 {
+    font-size: 2.5rem; }
+  .descripcion {
+    font-size: 1.3rem;
     width: 100%; }
   .video {
     width: 100%;
     height: 200px; }
   .mapa {
     width: 100%;
-    height: 250px; } }
+    height: 250px; }
+  .imgWhats {
+    width: 50px;
+    position: fixed;
+    bottom: 4px;
+    right: 4px; } }
