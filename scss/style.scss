@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap');
 @import "maps";
+@import "mixin";
 
 
 *{
@@ -88,8 +89,8 @@ li .ancla:hover{
 
 .subtitulo1{
     text-align: center;
-    font-size: 3.2rem;
-    margin: 50px 0 15px 0;
+    font-size: 4rem;
+    margin: 10px 0 15px 0;
     font-weight: bold;
 }
 .piedePag{
@@ -104,16 +105,9 @@ li .ancla:hover{
 
 .titulo{
     text-align: center;
-    margin: 40px 0 10px 0;
+    margin: 10px 0 10px 0;
     font-size: 70px;
     font-family: 'Roboto', sans-serif;
-}
-
-.descripcion{
-    text-align: center;
-    font-size: 25px;
-    padding: 0 30px 0 30px;
-    font-weight: bold;
 }
 
 .promos{
@@ -258,9 +252,10 @@ li .ancla:hover{
     .subtitulo1{
         font-size: 2.5rem;
     }
-    .descripcion{
-        font-size: 1.3rem;
+    .parrafosCE{
+        font-size: 15px;
         width: 100%;
+        padding: 0 10px;
     }
     .video{
         width: 100%;
