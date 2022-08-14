@@ -66,17 +66,40 @@ li .ancla:hover{
     background-color: #ffba69;
     font-weight: bold;
     border-radius: 20px;
+    transition: .2s;
+    text-align: center;
 }
 
-.botones{
+.card:hover{
+    box-shadow: 5px 5px 15px black;
+
+}
+
+
+.botones1{
+    width: 100%;
     align-items: center;
     color: #fff;
     transition: all .3s;
 }
 
+.botones1:hover{
+    background-color: #a2cef1;
+    color: black;
+}
+
+
+.botones{
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    transition: all .7s;
+}
+
 .botones:hover{
     background-color: #a2cef1;
     color: black;
+    width: 50%;
 }
 
 .subtitulo{
@@ -96,7 +119,7 @@ li .ancla:hover{
 .piedePag{
     background-color: #fff;
     opacity: 85%;
-    padding: 30px 0;
+    padding: 50px 0;
     margin: 60px 0;
 }
 .main{
@@ -236,6 +259,10 @@ li .ancla:hover{
     }
     h1{
         width: 100%;
+        margin: auto;
+    }
+    .botones1{
+        width: 85%;
         margin: auto;
     }
     .botones{

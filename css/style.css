@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap");
 .parrafosCE {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-align: center;
   padding: 0 60px;
   font-weight: 500; }
@@ -18,7 +18,7 @@
 
 .parrafosCE {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-align: center;
   padding: 0 60px;
   font-weight: 500; }
@@ -75,16 +75,33 @@ li .ancla:hover {
   box-shadow: 2px 2px 10px black;
   background-color: #ffba69;
   font-weight: bold;
-  border-radius: 20px; }
+  border-radius: 20px;
+  transition: .2s;
+  text-align: center; }
 
-.botones {
+.card:hover {
+  box-shadow: 5px 5px 15px black; }
+
+.botones1 {
+  width: 100%;
   align-items: center;
   color: #fff;
   transition: all .3s; }
 
-.botones:hover {
+.botones1:hover {
   background-color: #a2cef1;
   color: black; }
+
+.botones {
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  transition: all .7s; }
+
+.botones:hover {
+  background-color: #a2cef1;
+  color: black;
+  width: 50%; }
 
 .subtitulo {
   text-align: center;
@@ -102,7 +119,7 @@ li .ancla:hover {
 .piedePag {
   background-color: #fff;
   opacity: 85%;
-  padding: 30px 0;
+  padding: 50px 0;
   margin: 60px 0; }
 
 .main {
@@ -218,6 +235,9 @@ li .ancla:hover {
     background-attachment: fixed; }
   h1 {
     width: 100%;
+    margin: auto; }
+  .botones1 {
+    width: 85%;
     margin: auto; }
   .botones {
     width: 85%;
