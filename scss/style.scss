@@ -8,6 +8,17 @@
     font-family: sans-serif;
 }
 
+
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #457b9d;
+    border-radius: 20px;
+}
+
 /*HEADER*/
 .tamLogo{
     width: 110px;
@@ -90,16 +101,15 @@ li .ancla:hover{
 
 
 .botones{
-    width: 100%;
+    width: 85%;
     align-items: center;
     color: #fff;
-    transition: all .7s;
+    transition: all .4s;
 }
 
 .botones:hover{
     background-color: #a2cef1;
     color: black;
-    width: 50%;
 }
 
 .subtitulo{
@@ -121,6 +131,10 @@ li .ancla:hover{
     opacity: 85%;
     padding: 50px 0;
     margin: 60px 0;
+}
+.fondodecontacto{
+    background-color: #fff;
+    opacity: 88%;
 }
 .main{
     margin: 0px 0 100px 0;
@@ -201,10 +215,24 @@ li .ancla:hover{
 }
 
 .input-contact{
+    background-color: #fff;
     width: 30%;
     margin: auto;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: .2s;
+}
+.input-contact:hover{
+    background-color: #a0cef1;
+    color: #000;
 }
 
+.input-contact:focus{
+    background-color: #a2cef1;
+    color: #000;
+}
 /*PAGINA SOBRE NOSOTROS*/
 .imagen-pres{
 	text-align: center;
