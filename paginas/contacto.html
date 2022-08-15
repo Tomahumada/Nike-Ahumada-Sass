@@ -10,8 +10,9 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../img/Logo.svg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/Logo.svg.webp" type="image/x-icon">
     <title>Nike-Contacto</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description"
         content="Compra Aqui tu Remera, pantalon o zapatillas y recibilos en menos de 24hs totalmente gratis ya que trabajamos con envios a domicilio a todo el pais. Aprovecha nuestros increibles beneficios y promos de hasta un 45% de descuento.">
 </head>
@@ -20,7 +21,7 @@
     <header class="fondoH colorH">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="tamLogo" src="../img/Logo.svg.png"
+                <a class="navbar-brand" href="../index.html"><img class="tamLogo" src="../img/Logo.svg.webp"
                         alt="Nike"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +55,7 @@
             <div class="conFieldset">
                 <fieldset>
                     <legend><b>Completa Con tus datos para poder contactarte</b></legend>
-        <div class="fondoPri">
+        <div class="fondoPri" data-aos="zoom-in">
                     <form class="formularioContacto fondodecontacto">
                         <label for="nombre">Nombre</label><br>
                         <input class="input-contact" id="nombre" type="text" placeholder="Nombre"><br><br>
@@ -79,19 +80,19 @@
                         width="10%">&copy; 2022 Company,Inc</p>
                 <ul class="text-center pb-3 mb-3 container">
                     <a href="https://wa.me/+5493518174905?text=Hola%20Me%20interesa%20el%20auto%20que%20est%C3%A1s%20vendiendo"
-                        class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img src="/img/whatsapp.png" alt=""
+                        class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img src="/img/whatsapp.webp" alt=""
                             class="redes"></a>
                     <a href="https://www.instagram.com/tomas_ah.c/" class="col-xl-2 col-md-2 col-sm-2"
-                        target="_blank"><img src="/img/instagram.png" alt="" class="redes"></a>
+                        target="_blank"><img src="/img/instagram.webp" alt="" class="redes"></a>
                     <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWstpsZXTBBDjpvTPQfFRzHtSqfWpTTVThMVsXZkHMWbBFcpFRCFwMTqGzGbSVKQMDkKzLFxv"
-                        class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img class="redes" src="/img/gmail.png"
+                        class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img class="redes" src="/img/gmail.webp"
                             alt=""></a>
                     <a href="https://www.facebook.com/tomas.ahumada.750/" class="col-xl-2 col-md-2 col-sm-2"
-                        target="_blank"><img src="/img/facebook.png" alt="" class="redes"></a>
+                        target="_blank"><img src="/img/facebook.webp" alt="" class="redes"></a>
                     <a href="contacto.html" class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img
-                            src="/img/contacto.png" alt="" class="redes"></a>
+                            src="/img/contacto.webp" alt="" class="redes"></a>
                     <a href="../paginas/sobreNosotros.html" class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img
-                            src="/img/informacion.png" alt="" class="redes"></a>
+                            src="/img/informacion.webp" alt="" class="redes"></a>
                 </ul>
             </footer>
         </div>
@@ -103,6 +104,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

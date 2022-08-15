@@ -33,6 +33,15 @@ body::-webkit-scrollbar-thumb {
   background: #457b9d;
   border-radius: 20px; }
 
+.principal1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px; }
+
+.principal2 {
+  width: 70%;
+  height: 80%; }
+
 /*HEADER*/
 .tamLogo {
   width: 110px;
@@ -63,7 +72,7 @@ li .ancla:hover {
   opacity: 78%; }
 
 .fondoPri {
-  background-image: url(/img/fondo.jpg);
+  background-image: url(/img/fondo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -198,7 +207,7 @@ li .ancla:hover {
 
 .input-contact {
   background-color: #fff;
-  width: 30%;
+  width: 45%;
   margin: auto;
   color: #000;
   font-weight: bold;
@@ -215,6 +224,9 @@ li .ancla:hover {
   color: #000; }
 
 /*PAGINA SOBRE NOSOTROS*/
+.pre-img {
+  width: 50%; }
+
 .imagen-pres {
   text-align: center;
   width: 100%;
