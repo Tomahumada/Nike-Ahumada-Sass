@@ -44,8 +44,28 @@ body::-webkit-scrollbar-thumb {
 
 /*HEADER*/
 .tamLogo {
-  width: 110px;
+  width: 100px;
   margin: 0 0 0 10px; }
+
+.tamLogo:hover {
+  animation: rotar 1s infinite; }
+
+.navbar-toggler-icon:hover {
+  animation: rotar 1s infinite; }
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg); }
+  20% {
+    transform: rotate(6deg); }
+  40% {
+    transform: rotate(-6deg); }
+  60% {
+    transform: rotate(6deg); }
+  80% {
+    transform: rotate(6deg); }
+  100% {
+    transform: rotate(-6deg); } }
 
 .ancla {
   color: #666;
@@ -54,13 +74,17 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   margin: 0 10px;
   padding: 10px 60px;
-  transition: .4s; }
+  transition: .4s infinite;
+  border-radius: 10px; }
 
 li .ancla:hover {
   color: #fff;
   box-shadow: 6px 6px 10px #fff;
   background-color: #000;
   border-radius: 10px; }
+
+li .ancla:focus {
+  background-color: #333; }
 
 /*PAGINA DE INICIO*/
 /*HERO*/
@@ -176,6 +200,9 @@ li .ancla:hover {
 .redes {
   width: 90px;
   padding: 15px 20px; }
+
+.redes:hover {
+  animation: rotar 1s infinite; }
 
 .footer {
   text-align: center;
